@@ -13,6 +13,7 @@ public class Conta {
 
     // método para sacar um valor da conta
     public void sacar(double valor) {
-
+        saldo = saldo - valor;
     }
+
 }
