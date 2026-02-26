@@ -15,8 +15,9 @@ public class Main {
         alvo = paciente.frequenciaAlvo();
 
         System.out.println("Paciente: " + paciente.nome);
-        System.out.println("Frequencia máxima: " + paciente.frequenciaMaxima());
-        System.out.println("Intervalo da frequencia alvo: [" + alvo[0] + ", " + alvo[1]+"]");
+        System.out.println("Frequência máxima: " + paciente.frequenciaMaxima());
+        System.out.println("Intervalo da frequência alvo: [" + alvo[0] + ", " + alvo[1]+"]");
+
 
     }
 }

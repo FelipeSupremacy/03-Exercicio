@@ -5,14 +5,16 @@ public class Paciente {
     int idade;
 
     public int frequenciaMaxima() {
-        return 200 - idade;
+        return 220 - idade;
     }
 
     public double[] frequenciaAlvo() {
         double[] alvo = new double[2];
         int fm = frequenciaMaxima();
-        alvo[0] = fm * 0.5;
+        alvo[0] = fm / 2;
         alvo[1] = fm * 0.85;
         return alvo;
     }
+
+
 }
